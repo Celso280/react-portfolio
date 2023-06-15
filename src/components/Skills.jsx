@@ -4,11 +4,10 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
-import AWS from '../assets/aws.png';
+import PostgreSQL from '../assets/postgresql.png'
+
 
 const Skills = () => {
   return (
@@ -46,12 +45,12 @@ const Skills = () => {
                     <p className='my-4'>NODE</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Mongo} alt=''/>
-                    <p className='my-4'>MONGO DB</p>
+                    <img className='w-20 mx-auto' src={Tailwind} alt=''/>
+                    <p className='my-4'>TAILWIND</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={AWS} alt=''/>
-                    <p className='my-4'>AWS</p>
+                    <img className='w-20 mx-auto' src={PostgreSQL} alt=''/>
+                    <p className='my-4'>POSTGRESQL</p>
                 </div>
             </div>
         </div>
